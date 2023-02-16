@@ -1,6 +1,6 @@
-public class MinhaClasse{
+public class SobreMim {
 
-public static void main(String[] args) {
+    public static void main(String[] args) {
     
         String nome = args[0];
         String sobreNome = args[1];
@@ -13,3 +13,4 @@ public static void main(String[] args) {
 
     }
 }
+
