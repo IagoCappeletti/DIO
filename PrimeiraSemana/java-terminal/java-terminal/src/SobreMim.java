@@ -17,13 +17,14 @@ public class SobreMim {
         int idade = scanner.nextInt();
 
         System.out.println("Digite seu altura: ");
-        Double altura = scanner.nextDouble();
+        double altura = scanner.nextDouble();
         System.out.println();
 
         System.out.println("Olá, me chamo " + nome + " " + sobreNome);
         System.out.println("Tenho " + idade + " anos");
         System.out.println("Minha altura é " + altura + " Cm ");
 
+        scanner.close();
     }
 }
 
